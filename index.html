@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Cocktail Selector App</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="hero">
+      <h1>Welcome to the Cocktail Selector App</h1>
+      <h2>Enjoy Your Cocktails</h2>
+    </div>
+    <h2 class="select-cocktails">Select your favorite Cocktails</h2>
+    <div class="filter-nav">
+      <a href="#" id="all-cocktails">All Cocktails</a>
+      <a href="#" id="a-b">A-B Cocktails</a>
+      <a href="#" id="c-d">C-D Cocktails</a>
+      <a href="#" id="e-g">E-G Cocktails</a>
+      <a href="#" id="h-l">H-L Cocktails</a>
+      <a href="#" id="m-n">M-N Cocktails</a>
+      <a href="#" id="special">Special Cocktails</a>
+    </div>
+
+    <div class="cocktails"></div>
+
+    <template id="cocktail-card">
+      <div class="cocktail-card">
+        <div class="cocktail-card-text">
+          <h3></h3>
+          <p class="description"></p>
+          <a href="#" class="primary-btn">
+            <span class="name"></span>
+          </a>
+        </div>
+        <div class="cocktail-card-photo">
+          <img src="" alt="" />
+        </div>
+      </div>
+    </template>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
